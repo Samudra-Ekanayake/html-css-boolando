@@ -13,7 +13,6 @@
   }
 
 .container {
-    background-color: pink;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +22,6 @@
 }
 
 .container2{
-    background-color: pink;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -46,12 +44,20 @@
     background-position: center;
 }
 
+.box1:hover {
+    background-image: url(img/1b.webp);  
+}
+
 .box2 {
     display: flex;
     align-items: center;
     background-image: url(img/2.webp);
     background-size: cover;
     background-position: center;
+}
+
+.box2:hover {
+    background-image: url(img/2b.webp);  
 }
 
 .box3 {
@@ -62,12 +68,20 @@
     background-position: center;
 }
 
+.box3:hover {
+    background-image: url(img/3b.webp);  
+}
+
 .box4 {
     display: flex;
     align-items: center;
     background-image: url(img/4.webp);
     background-size: cover;
     background-position: center;
+}
+
+.box4:hover {
+    background-image: url(img/4b.webp);  
 }
 
 .box5 {
@@ -78,12 +92,20 @@
     background-position: center;
 }
 
+.box5:hover {
+    background-image: url(img/5b.webp);  
+}
+
 .box6 {
     display: flex;
     align-items: center;
     background-image: url(img/6.webp);
     background-size: cover;
     background-position: center;
+}
+
+.box6:hover {
+    background-image: url(img/6b.webp);  
 }
 
 .greenbox {
