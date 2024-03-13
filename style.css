@@ -5,7 +5,37 @@
 }
 
 .navbar {
+    background-color: orange;
     display: flex;
     justify-content: space-around;
     align-items: center; 
+    min-height: 3rem;
   }
+
+.container {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+.container2{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+.graybox {
+    background-color: gray;
+    display: flex;
+    min-width: 5rem;
+    min-height: 10rem;
+}
+
+
